@@ -1,47 +1,22 @@
-# This file contains metadata for your plugin.
-
-# This file should be included when you package your plugin.# Mandatory items:
-
 [general]
 name=v5PFES
 qgisMinimumVersion=3.0
-description=Support build PFES Map
-version=0.1
-author=IFFEE
-email=phamquangduongvfu@gmail.com
+qgisMaximumVersion=3.22
+description=v5PFES - Công cụ xây dựng bản đồ chi trả dịch vụ môi trường rừng
+version=2020.03.22
+author=Viện Sinh thái rừng và Môi trường (IFEE)
+email=hotropfes@ifee.edu.vn
 
-about=Provide a brief description of the plugin and its purpose.
+about=Ứng dụng v5PFES hỗ trợ Quỹ bảo vệ và phát triển rừng các tỉnh xây dựng bản đồ chi trả dịch vụ môi trường rừng từ bản đồ cập nhật diễn biến rừng hàng năm. Ứng dụng được Viện Sinh thái rừng và Môi trường phát triển dựa trên quy định tại Nghị định 156/2018/NĐ-CP về hướng dẫn chi tiết thi hành một số điều của Luật lâm nghiệp, phần Chi trả Dịch vụ môi trường rừng và Sổ tay hướng dẫn Xây dựng bản đồ chi trả DVMTR của Tổng cục lâm nghiệp. Các chức năng chính: Chuẩn hóa dữ liệu diễn biến rừng, Xây dựng bản đồ chi trả dịch vụ môi trường rừng, Quản lý Cơ sở dữ liệu, Thống kê số liệu (theo mẫu biểu). Các tác giả: Nguyễn Văn Thị, Lê Sỹ Doanh, Phạm Văn Duẩn, Trần Xuân Hòa, Bùi Trung Hiếu, Phạm Quang Dương, Kiều Đăng Anh, Nguyễn Văn Tùng, Lê Sỹ Hòa. Xây dựng năm 2020.
 
-tracker=http://bugs
-repository=https://github.com/khocdicon123/v5Pfes_Ifee.git
-# End of mandatory metadata
 
-# Recommended items:
 
-hasProcessingProvider=no
-# Uncomment the following line and add your changelog:
-# changelog=
+tracker = https://github.com/nguyenvanthi2020/v5PFES/issues
+repository=https://github.com/nguyenvanthi2020/v5PFES
+homepage=http://ifee.edu.vn
 
-# Tags are comma separated with spaces allowed
-tags=python
+Category of the plugin: Raster, Vector, Database
 
-homepage=http://homepage
-category=Plugins
-icon=icon.png
-# experimental flag
 experimental=False
-
-# deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
-
-# Since QGIS 3.8, a comma separated list of plugins to be installed
-# (or upgraded) can be specified.
-# Check the documentation for more information.
-# plugin_dependencies=
-
-Category of the plugin: Raster, Vector, Database or Web
-# category=
-
-# If the plugin can run on QGIS Server.
 server=False
-
